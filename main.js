@@ -76,13 +76,13 @@ function selectRandomFoodIndex(array) {
 function showRandomDish() {
   hideCookPot();
   showFood();
-  if (sideInput.checked == true) {
+  if (sideInput.checked) {
     food.innerText = sides[selectRandomFoodIndex(sides)];
-  } else if (mainDishInput.checked == true) {
+  } else if (mainDishInput.checked) {
     food.innerText = mains[selectRandomFoodIndex(mains)];
-  } else if (dessertInput.checked == true) {
+  } else if (dessertInput.checked) {
     food.innerText = desserts[selectRandomFoodIndex(desserts)];
-  } else if (entireMealInput.checked == true) {
+  } else if (entireMealInput.checked) {
     food.innerText = `${mains[selectRandomFoodIndex(mains)]}, with ${sides[selectRandomFoodIndex(sides)]}, and ${desserts[selectRandomFoodIndex(desserts)]} for dessert!`;
   } else {
     alert('Please select an input');
