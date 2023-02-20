@@ -52,31 +52,25 @@ h2 span {
 
 .box1 {
   padding: 40px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
   flex: 1;
   flex-basis: 45%;
-  height: 500px;
   background-color: rgba(225, 225, 225, .9);
   flex-wrap: wrap;
   flex-direction: column;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 525;
-  /*font-size: 25px;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 .box2 {
   padding: 40px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
+  text-align: center;
   flex: 1;
   flex-wrap: wrap;
   flex-direction: column;
   flex-basis: 45%;
-  height: 500px;
   background-color: rgba(225, 225, 225, .9);
-  float: right;
-  align-content: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 #maketxt {
@@ -96,12 +90,12 @@ h2 span {
 }
 
 .letsCookBtn {
-  padding: 0 60px;
+  padding: 0 50px;
   line-height: 2.5;
   background-color: #0fb9b1;
   border-radius: 5px;
-  font-family: 'Open Sans', sans-serif;
-  border: none;
+  font-family: 'Roboto', sans-serif;
+  border: 0;
 }
 
 .letsCookBtn:hover {
@@ -115,7 +109,9 @@ h2 span {
   border-radius: 5px;
   background-color: #95a5a6;
   color: rgba(225, 225, 225, .9);
-  border: none;
+  border: 0;
+  align-self: flex-end;
+  float: right;
 }
 
 #clearBtn:hover {
@@ -127,7 +123,7 @@ h2 span {
   float: right;
   height: 30px;
   border-radius: 5px;
-  border: none;
+  border: 0;
 }
 
 .addRecipeBtn:hover {
